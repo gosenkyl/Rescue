@@ -9,8 +9,31 @@
 <div class="menu-container">
     <div class="partial-items">
         <ul>
-            <li>test1</li>
-            <li>test2</li>
+            <li>
+				<a href="index.php">
+					<img src="img/home-icon-small.png"/>home
+				</a>
+			</li>
+            <li>
+				<a href="about.php">
+					<img src="img/about-icon-small.png"/>about
+				</a>
+			</li>
+			<li>
+				<a href="dogs.php">
+					<img src="img/dog-icon-small.png"/>dogs
+				</a>
+			</li>
+			<li>
+				<a href="cats.php">
+					<img src="img/cat-icon-small.png"/>cats
+				</a>
+			</li>
+			<li>
+				<a href="animal.php">
+					<img src="img/admin2-icon-small.png"/>admin
+				</a>
+			</li>
         </ul>
     </div>
 </div>

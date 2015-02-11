@@ -1,5 +1,5 @@
 $('.partial-menu').on('click', function(){
 
-    $('.partial-items').show();
+    $('.menu-container').toggleClass('is-active');
 
 });
