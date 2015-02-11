@@ -1,0 +1,41 @@
+.wrapper{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+}
+
+.name{
+    text-align:center;
+    color: #3B8686;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.main-img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/doge2.png");
+    background-repeat: no-repeat;
+}
+
+.info-wrapper{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.info-label{
+    color: black;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.info-desc{
+    padding-left: 20px;
+    color: #3B8686;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}

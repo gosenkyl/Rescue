@@ -1,0 +1,87 @@
+.header{
+	background: #3B8686;
+	text-align: center;
+	min-height: 225px;
+}
+
+.header-text{
+	color: #e5e5e5;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 800;
+	font-size: 100px;
+}
+
+.bottom{
+	text-align: center;
+	margin-top: -50px;
+	font-family: 'Francois One', sans-serif;
+	font-weight: 800;
+	font-size: 24px;
+}
+
+.menu{
+	display:inline-block;
+	width: 300px;
+	height: 200px;
+	background: white;
+	list-style-type: none;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.menu-href{
+	color: #3B8686;
+	text-decoration: none;
+}
+
+.menu-top{
+	height: 20%;
+	border-bottom: 2px;
+	border-bottom-width: 5px;
+	border-bottom-color: #000000;
+}
+
+.home-bottom{
+	height: 80%;
+	width: 55%;
+    margin: 0 auto;
+	border-top: 1px solid #dfdfdf;
+	background-image: url("../img/home-icon.png");
+	background-repeat: no-repeat;
+}
+
+.about-bottom{
+	height: 80%;
+	width: 50%;
+    margin: 0 auto;
+	border-top: 1px solid #dfdfdf;
+	background-image: url("../img/about-icon.png");
+	background-repeat: no-repeat;
+}
+
+.dogs-bottom{
+	height: 80%;
+	width: 50%;
+    margin: 0 auto;
+	border-top: 1px solid #dfdfdf;
+	background-image: url("../img/dog-icon.png");
+	background-repeat: no-repeat;
+}
+
+.cats-bottom{
+	height: 80%;
+	width: 50%;
+    margin: 0 auto;
+	border-top: 1px solid #dfdfdf;
+	background-image: url("../img/cat-icon.png");
+	background-repeat: no-repeat;
+}
+
+.admin-bottom{
+	height: 80%;
+	width: 50%;
+	margin: 0 auto;
+	border-top: 1px solid #dfdfdf;
+	background-image: url("../img/admin2-icon.png");
+	background-repeat: no-repeat;
+}
