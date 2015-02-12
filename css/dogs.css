@@ -1,31 +1,44 @@
 
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
- 
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
- 
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
- 
-.flex-item {
-  width: 300px;
-  margin-top: 10px;
- 
-  color: white;
-  text-align: center;
-}
- 
+/*.flex-container {*/
+  /*padding: 0;*/
+  /*margin: 0;*/
+  /*list-style: none;*/
+
+  /*display: -webkit-box;*/
+  /*display: -moz-box;*/
+  /*display: -ms-flexbox;*/
+  /*display: -webkit-flex;*/
+  /*display: flex;*/
+
+  /*-webkit-flex-flow: row wrap;*/
+  /*justify-content: space-around;*/
+/*}*/
+
+/*.flex-item {*/
+    /*width: 300px;*/
+    /*margin-top: 10px;*/
+
+    /*color: white;*/
+    /*text-align: center;*/
+/*}*/
+
 .wrapper{
     margin-left: 75px;
     margin-right: 75px;
+}
+
+
+.item {
+    display: inline;
+
+    float: left;
+
+    width: 300px;
+    margin: 10px;
+
+    color: #ffffff;
+    text-align: center;
 }
  
 .item-header{
@@ -33,10 +46,12 @@
     font-weight: bold;
     font-size: 3em;
     padding: 10px 0;
+    width: 300px;
 }
  
 .item-photo{
-    background: white;
+    background: #ffffff;
+    width: 300px;
 }
  
  
@@ -52,6 +67,7 @@
     font-size: 1.5em;
     padding: 10px 0;
     border-top: 1px solid #dfdfdf;
+    width: 300px;
 }
 
 .detail-content{
@@ -59,6 +75,8 @@
 	overflow: hidden;
 	background: #3B8686;
     font-size: 16px;
+    width: 300px;
+    position: absolute;
 }
 
 .detail-content ul{
@@ -75,7 +93,7 @@
     color: white;
     text-decoration: none;
     margin: 15px 0;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
 }
 
 .more a{

@@ -36,12 +36,10 @@ if($dogs = $db->prepare($sql)){
 		<?php include 'menu.php'; ?>
 
 		<div class="wrapper">
-		
-			<ul class="flex-container">
 
 				<?php foreach($dogList as $dog){ ?>
 
-			  		<li class="flex-item">
+			  		<div class="item">
 						<div class="item-header">
 							<?= $dog["name"]; ?>
 						</div>
@@ -86,9 +84,8 @@ if($dogs = $db->prepare($sql)){
 						</div>
 
 						<input type="hidden" value="<?= $dog['animal_id']; ?>" id="animal-id" />
-					</li>
+					</div>
 				<?php } ?>
-			</ul>
 		</div>
 		
 	</body>
