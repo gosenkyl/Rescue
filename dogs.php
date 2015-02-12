@@ -46,7 +46,11 @@ if($dogs = $db->prepare($sql)){
 							<?= $dog["name"]; ?>
 						</div>
 						<div class="item-photo">
-							<img src="img/doge2.png" />
+							<?php if($dog["name"] == 'Darby'){ ?>
+								<img src="img/darby.png" />
+							<?php } else { ?>
+								<img src="img/doge2.png" />
+							<?php } ?>
 						</div>
 						<div class="item-detail">
 							detail
